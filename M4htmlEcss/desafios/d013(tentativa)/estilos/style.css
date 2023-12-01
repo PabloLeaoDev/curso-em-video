@@ -3,4 +3,12 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+div#tel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
