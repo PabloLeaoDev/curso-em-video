@@ -13,7 +13,7 @@ body {
     transform: translate(-50%, -50%);
 } */
 
-div#tel {
+div#view {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -44,4 +44,12 @@ img.figuras.sociais {
 img#smartphone {
     width: 311px;
     height: 627px;
+}
+
+iframe#tela {
+    position: relative;
+    top: 0px;
+    left: px;
+    width: 267px;
+    height: 471px;
 }
