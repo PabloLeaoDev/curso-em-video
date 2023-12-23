@@ -12,12 +12,15 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post"  autocomplete="off">
         <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
     <!-- Label's são usadas para ligar a etiqueta ao input:submit (elas são de extrema importancia para a identificação do navegador) -->
-    <!-- Há dois métodos para o envio de formulários: GET (padrão) e POST (retira os dados da URL) -->
+    <!-- Há dois métodos para o envio de formulários: GET (padrão) e POST (retira os dados da URL (mas os dados ainda não estão seguros; para mantê-los em sigilo é preciso usar o HTTPS)) -->
+    <!-- O método GET não pode ultrapassar 3.000 bytes (usar o POST) -->
+    <!-- O método GET não pode ser usado para dados sigilosos (usar o POST) -->
+    <!-- O método GET não pode ser usado para enviar arquivos (usar o POST) -->
 </body>
 </html>
