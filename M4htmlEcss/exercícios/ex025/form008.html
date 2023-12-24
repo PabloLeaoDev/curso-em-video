@@ -15,12 +15,12 @@
 
         <p>
             <label for="in2">Número 2:</label>
-            <input type="number" name="n2" id="in2" min="0" max="50" required>
+            <input type="number" name="n2" id="in2" min="0" max="50" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)" required>
         </p>
 
         <p>
             <label for="isoma">Soma: </label>
-            <output name="soma" id="isoma">0</output>
+            <output name="soma" id="isoma">0</output> <!-- O output não envia nada, somente mostra coisas na tela -->
         </p>
 
         <p>
