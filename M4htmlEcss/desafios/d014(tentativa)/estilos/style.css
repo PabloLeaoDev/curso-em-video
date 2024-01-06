@@ -5,3 +5,9 @@ Lista de cores:
 Verde: #49a09e
 Roxo: #5f2c82
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}

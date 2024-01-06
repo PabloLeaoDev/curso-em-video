@@ -17,7 +17,19 @@
                 <p>
                     Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
                 </p>
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post" autocomplete="on">
+                    <label for="iemail">
+                        <input type="email" name="email" id="iemail">
+                    </label>
+                    <br>
+                    <label for="isenha">
+                        <input type="password" name="senha" id="isenha" minlength="8">
+                    </label>
+                    <br>
+                    <input type="button" value="Entrar">
+                    <br>
+                    <a href="#"><input type="button" value="Esqueci a senha"></a>
+                </form>
             </div>
         </section>
     </main>
