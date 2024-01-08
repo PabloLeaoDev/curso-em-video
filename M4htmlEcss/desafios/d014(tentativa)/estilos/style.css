@@ -3,6 +3,8 @@
 :root { /* Palheta de cores */
     --aqua: #49a09e;
     --roxo: #5f2c82;
+    --botao1: #459796;
+    --botao2: #357271;
 }
 
 * {
@@ -55,18 +57,36 @@ div#formulario p {
     padding-right: 10px;
 }
 
-span#icon-person {
+span.material-symbols-outlined {
     background-color: var(--roxo);
     color: white;
     margin: auto;
     width: 90%;
-    height: 10%;
+    height: 35px;
+    border-radius: 6px;
 }
 
-span#icon-key {
-    background-color: var(--roxo);
+input.conta {
+    background-color: #5ac2c0;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    height: 30px;
+    width: 150px;
+}
+
+.botao {
+    background-color: var(--botao1);
     color: white;
     margin: auto;
     width: 90%;
-    height: 10%;
+    height: 35px;
+    border-radius: 6px;
+    border: 0;
+}
+
+.botao.esqueci {
+    margin-top: 5px;
+    background-color: white;
+    color: var(--botao2);
+    border: 1px solid var(--botao2);
 }
