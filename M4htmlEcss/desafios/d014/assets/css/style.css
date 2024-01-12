@@ -110,7 +110,7 @@ form input[type=submit] { /* Seletor de Atributo */
     margin: 7px 0px;
 }
 
-form input[type=submit]:hover {
+form input[type="submit"]:hover { /* Seletor de Atributos */
     background-color: #2f6868;
     border: 1px solid #6be7e55d;
 }
