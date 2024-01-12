@@ -97,7 +97,7 @@ form div.campo input:focus-within {
     border: none;
 }
 
-form input[type=submit] {
+form input[type=submit] { /* Seletor de Atributo */
     display: block;
     font-size: 1em;
     width: 100%;
